@@ -5,5 +5,6 @@ import { ConfigModule } from '@nestjs/config';
   imports: [ConfigModule.forRoot()],
   controllers: [],
   providers: [],
+  exports: [],
 })
 export class AppModule {}
