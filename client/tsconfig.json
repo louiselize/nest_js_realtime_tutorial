@@ -17,5 +17,5 @@
     "jsx": "react",
     "types": ["@types/jest"]
   },
-  "include": ["./src", "./jest-setup.ts"]
+  "include": ["./src", "./jest-setup.ts", "../server/src/modules.config.ts", "../server/src/redis.module.ts"]
 }
